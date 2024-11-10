@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Desa Purwanegara</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Warna kustom */
+    .navbar {
+      background-color: #D32F2F; /* Navbar merah */
+      text-align: left;
+    }
+    .hero-section {
+      background-color: #FFCDD2; /* Merah muda */
+      padding: 40px 0;
+    }
+    .bg-light {
+      background-color: #FFEBEE !important; /* Merah sangat muda */
+    }
+    .bg-info {
+      background-color: #FFCDD2 !important; /* Merah muda */
+    }
+    .bg-dark {
+      background-color: #B71C1C !important; /* Merah tua */
+      color: #FFF;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Desa Purwanegara</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#map">Peta</a></li>
+          <li class="nav-item"><a class="nav-link" href="#description">Keterangan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bagian Beranda -->
+  <div class="hero-section" id="home">
+    <div class="container text-center">
+      <h1 class="display-6">Selamat Datang di Desa Purwanegara</h1>
+      <img src="https://th.bing.com/th/id/OIP.hE56cmJ7Xa3b5lSMBXgvEAHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Desa Purwanegara" class="img-fluid rounded my-3">
+      <p class="lead">Desa Purwanegara terletak di Kecamatan Purwokerto Utara, Kabupaten Banyumas, Provinsi Jawa Tengah. Desa ini merupakan bagian dari wilayah Purwokerto yang terkenal dengan keindahan dan kekayaan budaya Banyumas.</p>
+    </div>
+  </div>
+
+  <!-- Bagian Peta -->
+  <section id="map" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Peta Desa Purwanegara</h2>
+      <div id="map-container" class="text-center">
+        <iframe src="Peta.html" frameborder="0" style="width: 100%; height: 500px;"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Keterangan -->
+  <section id="description" class="section bg-info text-dark">
+    <div class="container">
+      <h2 class="section-title">Keterangan</h2>
+      <p>Desa Purwanegara merupakan salah satu desa di Kecamatan Purwokerto Utara, yang memiliki berbagai fasilitas umum seperti sekolah, pasar, dan tempat ibadah. Sebagian besar penduduknya bekerja di bidang pertanian, usaha kecil, serta sektor informal lainnya. Desa ini juga dikenal dengan kehidupan masyarakatnya yang harmonis dan penuh semangat gotong royong.</p>
+      <p>Wilayah Purwanegara meliputi area pemukiman yang nyaman dengan fasilitas pendidikan dan kesehatan yang mudah dijangkau. Selain itu, desa ini juga dikelilingi oleh pemandangan alam yang indah, memberikan suasana yang asri bagi penduduk setempat.</p>
+    </div>
+  </section>
+
+  <!-- Bagian Tentang -->
+  <section id="about" class="section bg-dark text-light">
+    <div class="container">
+      <h2 class="section-title">Tentang Desa Purwanegara</h2>
+      <p>Desa Purwanegara memiliki karakteristik budaya yang kaya, dengan masyarakat yang masih memegang teguh nilai-nilai tradisional. Desa ini sering mengadakan berbagai acara kebudayaan dan upacara adat yang menarik bagi wisatawan, menjadikannya salah satu desa yang memiliki daya tarik tersendiri di wilayah Banyumas.</p>
+      <p>Peta interaktif ini dibuat untuk membantu pengunjung dan penduduk lokal dalam menavigasi Desa Purwanegara dan menemukan lokasi penting seperti fasilitas umum dan area publik. Kami berharap peta ini dapat memberikan kemudahan bagi siapa saja yang ingin mengenal Desa Purwanegara lebih dekat.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center bg-light py-3">
+    <p>&copy; 2024 Peta Desa Purwanegara. Dikembangkan oleh Bayu Effendi.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
